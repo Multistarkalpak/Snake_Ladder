@@ -27,6 +27,8 @@ namespace SnakeAndLadder
 
                 int Option1 = random.Next(0, 3);
                 Console.WriteLine(" Move Option : " + Option1);
+                
+                diecount++;
 
                 switch (Option1)
                 {
