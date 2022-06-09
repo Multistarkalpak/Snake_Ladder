@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SnakeAndLadder
 {
-    internal class reportDie
+    internal class report
     {
         public int P1Position = 0;
         public const int No_Play = 0;
@@ -14,7 +14,6 @@ namespace SnakeAndLadder
         public const int Snake = 2;
         public const int Start = 0;
         public const int End = 100;
-        public int diecount = 0;
         public void InitGame()
         {
             while (P1Position != 100)
@@ -27,8 +26,6 @@ namespace SnakeAndLadder
 
                 int Option1 = random.Next(0, 3);
                 Console.WriteLine(" Move Option : " + Option1);
-
-                diecount++;
 
                 switch (Option1)
                 {
@@ -53,10 +50,7 @@ namespace SnakeAndLadder
                         break;
 
                 }
-            
             }
-
-            Console.WriteLine("Total Number of Die thrown: " + diecount);        
         }
         
     }
