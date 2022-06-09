@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SnakeAndLadder
 {
-    internal class Start_position
+    internal class DieRoll
     {
         public int P1Position = 0;
 

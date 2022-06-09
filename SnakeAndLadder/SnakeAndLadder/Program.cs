@@ -11,6 +11,9 @@ namespace SnakeAndLadder
 
             Console.WriteLine("Initital Position of Player is 0");
 
+            DieRoll snakeAndLadder = new DieRoll();
+            snakeAndLadder.InitGame();
+
 
         }
     }
