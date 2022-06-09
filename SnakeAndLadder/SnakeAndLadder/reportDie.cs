@@ -14,6 +14,7 @@ namespace SnakeAndLadder
         public const int Snake = 2;
         public const int Start = 0;
         public const int End = 100;
+        public int diecount = 0;
         public void InitGame()
         {
             while (P1Position != 100)
@@ -51,6 +52,7 @@ namespace SnakeAndLadder
 
                 }
             }
+            Console.WriteLine("Total Number of Die thrown: " + diecount);
         }
         
     }
