@@ -34,7 +34,12 @@ namespace SnakeAndLadder
                         break;
                     case Ladder:
                         P1Position += DieRolled;
-                        
+                        if (P1Position>100)
+                        {
+                            P1Position -= DieRolled;
+                            Console.WriteLine("Can't move ahead of 100");
+                            break;
+                        }
                         Console.WriteLine("Player1 got Ladder, New Position : {0}", P1Position);
                         break;
                     case Snake:
