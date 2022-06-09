@@ -101,7 +101,7 @@ namespace SnakeAndLadder
                 Console.WriteLine("Player1 won the game");
 
             }
-            else if( P2Position == 100)
+            else
             {
                 Console.WriteLine("Player2 won the game");
             }

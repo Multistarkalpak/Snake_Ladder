@@ -9,9 +9,9 @@ namespace SnakeAndLadder
 
             Console.WriteLine("==========Welcome To Snake And Ladder Game========");
 
-            Console.WriteLine("Initital Position of Player is 0");
+            Console.WriteLine("Initital Position of both Players is 0");
 
-            DieRoll snakeAndLadder = new DieRoll();
+            final_game snakeAndLadder = new final_game();
             snakeAndLadder.InitGame();
 
 
